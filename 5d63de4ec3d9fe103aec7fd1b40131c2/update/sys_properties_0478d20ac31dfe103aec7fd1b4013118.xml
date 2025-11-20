@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Task table to used for generating Drift Remediation tasks. Requires the 'remediation_tasks_enabled' property to be true. Note that usage of the 'u_drift_remediation_task' table requires installing of the Drift Remediation application.</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>remediation_task_table</name>
+        <read_roles>x_1780675_config_0.admin,x_1780675_config_0.user</read_roles>
+        <suffix/>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-11-20 12:33:28</sys_created_on>
+        <sys_id>0478d20ac31dfe103aec7fd1b4013118</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>remediation_task_table</sys_name>
+        <sys_package display_value="Drift Remediation" source="5d63de4ec3d9fe103aec7fd1b40131c2">5d63de4ec3d9fe103aec7fd1b40131c2</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Drift Remediation">5d63de4ec3d9fe103aec7fd1b40131c2</sys_scope>
+        <sys_update_name>sys_properties_0478d20ac31dfe103aec7fd1b4013118</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-11-20 12:33:28</sys_updated_on>
+        <type>string</type>
+        <value>u_drift_remediation_task</value>
+        <write_roles>x_1780675_config_0.admin</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=0478d20ac31dfe103aec7fd1b4013118"/>
+</record_update>
